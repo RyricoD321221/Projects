@@ -12,11 +12,15 @@
     flex-direction: row;
     justify-content: center;
     grid-gap: 35px;
-    margin-top: 100px;
 }
 
-    
-
+.title {
+    margin-top: 25px;
+    margin-bottom: 25px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
 .button {
     box-sizing: border-box;
     max-width: 300px;
@@ -32,16 +36,13 @@
     background-repeat:no-repeat;
     border: none;
     cursor:pointer;
-    
+    font-size: 50px;
+    rotate: 40deg;
 }
 .red {
     background-color: red;
 }
 .green {
     background-color: lawngreen;
-}
-
-text {
-1
 }
 
